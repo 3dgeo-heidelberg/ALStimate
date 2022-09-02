@@ -1,0 +1,21 @@
+name: bsc39
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - matplotlib
+  - pdal
+  - notebook
+  - jupyter
+  - numpy
+  - python-pdal
+  - ipympl
+  - alphashape
+  - laspy
+  - tabulate
+  - pip:
+    - open3d
+    - laszip
+
